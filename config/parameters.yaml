@@ -1,0 +1,6 @@
+input_topic: "zed/point_cloud/cloud_registered"
+output_topic: "pointcloud_sampler/pointcloud"
+
+x: 0.04
+y: 0.04
+z: 0.04

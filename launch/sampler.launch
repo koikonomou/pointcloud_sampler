@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="pointcloud_sampler" name="pointcloud_sampler" type="sampler">
+        <rosparam file="$(find pointcloud_sampler)/config/parameters.yaml" command="load" />
+    </node>
+</launch>
