@@ -1,0 +1,9 @@
+input_topic: "zed/point_cloud/cloud_registered"
+# input_topic: "camera/depth/points"
+output_topic: "ground_filtered/pointcloud"
+
+x: 0.04
+y: 0.04
+z: 0.04
+zmin: 0.0
+z_threshold: 0.0

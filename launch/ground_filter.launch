@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+    <node pkg="pointcloud_sampler" name="ground_filtered" type="remove_ground">
+        <rosparam file="$(find pointcloud_sampler)/config/ground_params.yaml" command="load" />
+    </node>
+</launch>
