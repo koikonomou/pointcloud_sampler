@@ -1,6 +1,6 @@
-input_topic: "zed/point_cloud/cloud_registered"
+input_topic: "camera/depth/points"
 output_topic: "pointcloud_sampler/pointcloud"
 
-x: 0.04
-y: 0.04
-z: 0.04
+x: 0.1
+y: 0.1
+z: 1.0
